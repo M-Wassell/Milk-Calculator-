@@ -4,7 +4,7 @@ function getMilk(money, milkCost){
     console.log(`Hi, the number of bottles you can buy for £${money} is ` + bottleCount(money, milkCost)+ ` bottles`);
     return console.log(`Hello, your change is £` + change(money, milkCost));
 }
-
+//gt commit working??
 function change(money, milkCost){
 
     var theChange = money % milkCost;
